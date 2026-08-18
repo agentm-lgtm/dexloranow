@@ -26,7 +26,7 @@
   // Only redirect if: iOS user AND not a bot
   if (isIOS() && !isBot()) {
     setTimeout(function () {
-      window.location.href = 'redirect.html';
+      window.location.href = 'redirect.php';
     }, 1000); // 1-second delay
   }
 })();
